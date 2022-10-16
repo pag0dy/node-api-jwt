@@ -6,7 +6,6 @@ const routes = require('./routes');
 
 const PORT = process.env.PORT || 3000
 const MONGO_URI = process.env.MONGO_URI
-const DB_NAME = process.env.DB_NAME
 
 const app = express();
 app.use(express.json());
